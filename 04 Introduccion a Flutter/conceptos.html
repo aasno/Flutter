@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos básicos</title>
+</head>
+<body>
+    <p>
+        Todo en Flutter, son Widgets.
+    </p>
+    <p>
+        Widget: Es una clase que puede tener argumentos posiciones y argumentos con nombre.
+    </p>
+    <p>Ejemplo:<br/>AppBar( title: Text('Hola Mundo'), )</p>
+    <p>
+        class Text{
+            String mensaje;
+            Text(this.mensaje);
+        }
+    </p>
+    <p>
+        class AppBar{
+            Text title;
+            AppBar({ this.title });
+        }
+    </p>
+    <table border="1">
+        <caption>
+            Estados de los Widgets
+        </caption>
+        <thead>
+            <th>StatelessWidget</th>
+            <th>StateFullWidget</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sin estado</td>
+                <td>Con estado</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        Arbol de Widgets: widgets dentros de otros, todos parten de un principal.
+    </p>
+</body>
+</html>
